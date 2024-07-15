@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding for the document -->
+  <meta charset="UTF-8">
+  <!-- Ensures the website is mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Forces IE to use the latest rendering engine -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="code.css">
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <div class="grid">
+    <aside class="sidebar">
+       <!-- Sidebar logo section -->
+       <div class="sidebar__logo">
+        <img src="icons/view-dashboard.svg" alt="Dashboard Logo">
+        <h1 id="dashbord">Dashboard</h1>
+      </div>
+      <nav class="sidebar__nav">
+        <!-- Main navigation menu -->
+        <ul class="menu">
+          <li><img src="./icons/home.svg" alt="" class="icons"><a href="#">Home</a></li>
+          <li><img src="./icons/card-account-details-outline.svg" alt="" class="icons"><a href="#">Profile</a></li>
+          <li><img src="./icons/message-reply-outline.svg" alt="" class="icons"><a href="#">Messages</a></li>
+          <li><img src="./icons/clock-time-three.svg" alt="" class="icons"><a href="#">History</a></li>
+          <li><img src="./icons/note-multiple.svg" alt="" class="icons"><a href="#">Tasks</a></li>
+          <li><img src="./icons/account-group.svg" alt="" class="icons"><a href="#">Communities</a></li>
+        </ul>
+        <!-- Settings and support menu -->
+        <ul class="menu Settings">
+          <li><img src="./icons/cog.svg" alt="" class="icons"><a href="#">Settings</a></li>
+          <li><img src="./icons/help-box.svg" alt="" class="icons"><a href="#">Support</a></li>
+          <li><img src="./icons/shield-check.svg" alt="" class="icons"><a href="#">Privacy</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <div class="main">
+      <div class="header">
+        <!-- Header top left section with search bar -->
+        <div class="header-top-left">
+          <img src="./icons/magnify.svg" alt="search-icon" class="icons">
+          <input type="text">
+        </div>
+        <!-- Header top right section with notifications and user profile -->
+        <div class="header-top-right">
+          <img src="./icons/bell-ring-outline.svg" alt="bell-icon" class="icons bell">
+          <div class="avatar">
+            <img src="./icons/user.png" alt="" class="profile-pics-small">
+          </div>
+          <div><h3>Mateo Dominguez</h3></div>
+        </div>
+        <!-- Header bottom left section with larger user profile -->
+        <div class="header-bottom-left">
+          <div class="avatar">
+            <img src="./icons/user.png" alt="" class="profile-pics">
+          </div>
+          <div class="greeting-user">
+            <h4>Hi there,</h4>
+            <h2>Mate Dominguez<span>(@Mateo.D)</span></h2>
+          </div>
+        </div>
+        <!-- Header bottom right section with action buttons -->
+        <div class="header-bottom-right">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+      <section class="content">
+        <div class="projects">
+          <h2>Your Projects</h2>
+          <!-- Grid of project cards -->
+          <div class="projects__grid">
+            <div class="project-card">
+              <h3>Super Cool Project</h3>
+              <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Less Cool Project</h3>
+              <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Impossible App</h3>
+              <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Easy Peasy App</h3>
+              <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Ad Blocker</h3>
+              <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+            <div class="project-card">
+              <h3>Money Maker</h3>
+              <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.</p>
+              <div class="project-card__icons">
+                <img src="./icons/star-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/eye-plus-outline.svg" alt="" class="icons">
+                <img src="./icons/share-variant-outline.svg" alt="" class="icons">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-content">
+          <div class="announcements">
+            <h2>Announcements</h2>
+            <!-- Announcements section -->
+            <div class="side-content-card">
+              <h4>Site Maintenance</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus enim id ex laboriosam nesciunt?</p>
+              <hr>
+              <h4>Community Share Day</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus enim id ex laboriosam nesciunt?</p>
+              <hr>
+              <h4>Updated Privacy Policy</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatibus enim id ex laboriosam nesciunt?</p>
+            </div>
+          </div>
+          <div class="trending">
+            <h2>Trending</h2>
+            <!-- Trending section with items -->
+            <div class="trends">
+              <div class="trend-item">
+                <div class="trend-item-icon"><img src="./icons/user.png" alt="Tegan"></div>
+                <div class="trend-item-txt">
+                  <h6>@tegan</h6>
+                  <p>World Peace Builder</p>
+                </div>
+              </div>
+              <div class="trend-item">
+                <div class="trend-item-icon"><img src="./icons/user.png" alt="Baullo Technologies"></div>
+                <div class="trend-item-txt">
+                  <h6>@baullotechnologies</h6>
+                  <p>Baullo Technologies, Inc.</p>
+                </div>
+              </div>
+              <div class="trend-item">
+                <div class="trend-item-icon"><img src="./icons/user.png" alt="Deebley"></div>
+                <div class="trend-item-txt">
+                  <h6>@deebley</h6>
+                  <p>Deebley Websites Solutions</p>
+                </div>
+              </div>
+              <div class="trend-item">
+                <div class="trend-item-icon"><img src="./icons/user.png" alt="Yandi Oluba"></div>
+                <div class="trend-item-txt">
+                  <h6>@yandioluba</h6>
+                  <p>The Lady Boss</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
